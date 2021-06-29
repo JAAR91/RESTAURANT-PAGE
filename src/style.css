@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(218, 187, 131);
+}
+
+.mt-container {
+    margin-top: 54px;
+}
+
+.bg-navbar {
+    background-color: rgba(51, 130, 136, 0.726);
+}

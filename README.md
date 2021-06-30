@@ -6,6 +6,9 @@ In this project, we built a simple restaurant project and made use of the follow
 - Webpack
 - Use of JavaScript functions and loops
 
+## Live Server
+[Click Here](https://jaar91.github.io/RESTAURANT-PAGE/)
+
 ## Built With
 
 - HTML

@@ -14,7 +14,7 @@ body {
 }
 
 .bg-navbar {
-  background-color: rgba(83, 70, 28, 0.979);
+  background-color: rgb(196, 135, 23);
 }
 
 .banner {
@@ -33,3 +33,25 @@ body {
   font-family: 'Restaurant';
 }
 
+.bg-menu {
+  background-color: rgb(196, 135, 23);
+}
+
+.fs-8 {
+  font-size: 35px;
+}
+
+.border-menu {
+  border: 1px solid rgb(196, 135, 23);
+}
+
+.text-menu {
+  color: rgb(196, 135, 23);
+}
+
+.text-vertical {
+  writing-mode: vertical-lr;
+
+  
+  text-orientation: sideways-right;
+}

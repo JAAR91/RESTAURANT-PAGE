@@ -2,27 +2,36 @@ import {Content, Home, Menu,Contact, homeContent, menuContent, contactContent} f
 import './style.css';
 
 function homeClick() {
-    Home.classList.add('active');
-    Menu.classList.remove('active');
-    Contact.classList.remove('active');
+    Home.classList.add('active','text-dark');
+    Home.classList.remove('text-white');
+    Menu.classList.remove('active', 'text-dark');
+    Menu.classList.add('text-white');
+    Contact.classList.remove('active', 'text-dark');
+    Contact.classList.add('text-white');
     homeContent.classList.remove('d-none');
     menuContent.classList.add('d-none');
     contactContent.classList.add('d-none');
 };
 
 function menuClick () {
-    Menu.classList.add('active');
-    Home.classList.remove('active');
-    Contact.classList.remove('active');
+    Menu.classList.add('active','text-dark');
+    Menu.classList.remove('text-white');
+    Home.classList.remove('active','text-dark');
+    Home.classList.add('text-white');
+    Contact.classList.remove('active','text-dark');
+    Contact.classList.add('text-white');
     menuContent.classList.remove('d-none');
     homeContent.classList.add('d-none');
     contactContent.classList.add('d-none');
 };
 
 function ContactClick() {
-    Contact.classList.add('active');
-    Home.classList.remove('active');
-    Menu.classList.remove('active');
+    Contact.classList.add('active','text-dark');
+    Contact.classList.remove('text-white');
+    Home.classList.remove('active','text-dark');
+    Home.classList.add('text-white');
+    Menu.classList.remove('active','text-dark');
+    Menu.classList.add('text-white');
     contactContent.classList.remove('d-none');
     menuContent.classList.add('d-none');
     homeContent.classList.add('d-none');

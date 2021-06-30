@@ -1,11 +1,35 @@
+@font-face {
+  font-family: 'Restaurant';
+  src: url('./Restaurant.otf');
+}
+
 body {
-    background-color: rgb(218, 187, 131);
+  background-image: url('./background.png');
+  background-size: 250px;
+  background-attachment: fixed;
 }
 
 .mt-container {
-    margin-top: 54px;
+  margin-top: 42px;
 }
 
 .bg-navbar {
-    background-color: rgba(51, 130, 136, 0.726);
+  background-color: rgba(83, 70, 28, 0.979);
 }
+
+.banner {
+  height: 100%;
+}
+
+.bg-title {
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.d-inherit {
+  display: inherit;
+}
+
+.tf-restaurant {
+  font-family: 'Restaurant';
+}
+

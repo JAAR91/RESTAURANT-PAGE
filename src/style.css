@@ -51,7 +51,12 @@ body {
 
 .text-vertical {
   writing-mode: vertical-lr;
-
-  
   text-orientation: sideways-right;
+}
+
+.contacttitleimage {
+  background-image: url('./Contact_Banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }

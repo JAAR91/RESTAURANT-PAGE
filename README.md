@@ -6,8 +6,6 @@ In this project, we built a simple restaurant project and made use of the follow
 - Webpack
 - Use of JavaScript functions and loops
 
-![screenshot](image/screenshot.png)
-
 ## Built With
 
 - HTML

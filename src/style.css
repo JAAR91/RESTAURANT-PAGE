@@ -30,7 +30,7 @@ body {
 }
 
 .tf-restaurant {
-  font-family: 'Restaurant';
+  font-family: 'Restaurant', Arial, Helvetica, sans-serif;
 }
 
 .bg-menu {
@@ -51,7 +51,7 @@ body {
 
 .text-vertical {
   writing-mode: vertical-lr;
-  text-orientation: sideways-right;
+  text-orientation: mixed;
 }
 
 .contacttitleimage {

@@ -14,12 +14,12 @@ Content.classList.add('p-0', 'mt-container');
 export const Container = document.createElement('div');
 Container.classList.add('container', 'p-0');
 Content.appendChild(Container);
-    
+
 export const navBar = document.createElement('nav');
 Content.appendChild(navBar);
 
 export const ulNavb = document.createElement('ul');
-ulNavb.classList.add('nav', 'nav-tabs', 'justify-content-center', 'fixed-top', 'container','rounded-top', 'bg-navbar');
+ulNavb.classList.add('nav', 'nav-tabs', 'justify-content-center', 'fixed-top', 'container', 'rounded-top', 'bg-navbar');
 navBar.appendChild(ulNavb);
 
 export const navItem1 = document.createElement('li');
@@ -47,7 +47,7 @@ navItem3.classList.add('nav-item');
 ulNavb.appendChild(navItem3);
 
 export const Contact = document.createElement('a');
-Contact.classList.add( 'nav-link', 'text-white');
+Contact.classList.add('nav-link', 'text-white');
 Contact.href = '#';
 Contact.textContent = 'Contact';
 navItem3.appendChild(Contact);
@@ -57,7 +57,7 @@ homeContent.classList.add('w-100', 'bg-white', 'p-0');
 Container.appendChild(homeContent);
 
 export const menuContent = document.createElement('div');
-menuContent.classList.add('w-100', 'd-none', 'p-5','bg-dark');
+menuContent.classList.add('w-100', 'd-none', 'p-5', 'bg-dark');
 Container.appendChild(menuContent);
 
 export const contactContent = document.createElement('div');
@@ -75,17 +75,17 @@ Banner.classList.add('w-100', 'm-0', 'banner');
 bannerContainer.appendChild(Banner);
 
 const titleContainer = document.createElement('div');
-titleContainer.classList.add('position-absolute','top-50', 'start-50', 'translate-middle', 'bg-title', 'rounded-3', 'shadow', 'p-4', 'border');
+titleContainer.classList.add('position-absolute', 'top-50', 'start-50', 'translate-middle', 'bg-title', 'rounded-3', 'shadow', 'p-4', 'border');
 bannerContainer.appendChild(titleContainer);
 
 const Title = document.createElement('h1');
-Title.classList.add('text-white','tf-restaurant', 'text-center');
+Title.classList.add('text-white', 'tf-restaurant', 'text-center');
 Title.textContent = "Welcome to JAAR's";
 titleContainer.appendChild(Title);
 
 const subTitle = document.createElement('h1');
-subTitle.classList.add('text-white', 'text-center','tf-restaurant');
-subTitle.textContent = "Restaurant";
+subTitle.classList.add('text-white', 'text-center', 'tf-restaurant');
+subTitle.textContent = 'Restaurant';
 titleContainer.appendChild(subTitle);
 
 titleContainer.innerHTML += `<p class="w-100 p-5 text-white fs-5 text-center">"Everything we do is a celebration of food – from
@@ -119,7 +119,7 @@ bottomnav.style.height = '100px';
 Content.appendChild(bottomnav);
 
 const bottomcontainer = document.createElement('div');
-bottomcontainer.classList.add('container', 'd-flex','justify-content-center');
+bottomcontainer.classList.add('container', 'd-flex', 'justify-content-center');
 bottomnav.appendChild(bottomcontainer);
 
 const face = new Image();
@@ -137,8 +137,7 @@ instagram.src = instragramimg;
 instagram.classList.add('m-2');
 bottomcontainer.appendChild(instagram);
 
-
-bottomnav.innerHTML += `<p class="m-1 text-center bg-dark text-white" >©2020 JAAR. All rights reserved. Powered by Twenty Twenty Advertising Inc.</p>`;
+bottomnav.innerHTML += '<p class="m-1 text-center bg-dark text-white" >©2020 JAAR. All rights reserved. Powered by Twenty Twenty Advertising Inc.</p>';
 
 menuContent.innerHTML += `<div class="bg-dark w-100 row">
     <p class="text-white text-center tf-restaurant fs-1 col-12">--------------------THE--------------------</p>
@@ -263,7 +262,6 @@ contactTitlecontainer.classList.add('contacttitleimage', 'position-relative', 'm
 
 contactContent.appendChild(contactTitlecontainer);
 
-
 contactTitlecontainer.innerHTML += `<div class="position-absolute start-50 top-50 translate-middle">
     <p class="text-center text-white fs-5 m-0 mt-5">Got a Question?</p>
     <p class="text-dark fs-1 text-center tf-restaurant m-0">Contact Us</p>
@@ -273,10 +271,10 @@ contactTitlecontainer.innerHTML += `<div class="position-absolute start-50 top-5
 const contactinfocontainer = document.createElement('div');
 contactContent.appendChild(contactinfocontainer);
 
-contactinfocontainer.innerHTML += `<p class="text-center m-3 fs-4">Click on any of the following links</p>`;
+contactinfocontainer.innerHTML += '<p class="text-center m-3 fs-4">Click on any of the following links</p>';
 
 const contactinfo = document.createElement('div');
-contactinfo.classList.add('w-100', 'bg-light', 'd-flex', 'justify-content-center','rounded', 'my-2');
+contactinfo.classList.add('w-100', 'bg-light', 'd-flex', 'justify-content-center', 'rounded', 'my-2');
 contactinfocontainer.appendChild(contactinfo);
 
 const link = document.createElement('a');
@@ -310,10 +308,10 @@ link.appendChild(instragramicon);
 
 contactinfo.appendChild(link);
 
-contactinfocontainer.innerHTML += `<p class="text-center m-3 fs-4">Or contact us to</p>`;
+contactinfocontainer.innerHTML += '<p class="text-center m-3 fs-4">Or contact us to</p>';
 
 const phonecontainer = document.createElement('div');
-phonecontainer.classList.add('d-flex','justify-content-center');
+phonecontainer.classList.add('d-flex', 'justify-content-center');
 contactinfocontainer.appendChild(phonecontainer);
 
 const telephonicon = new Image();
@@ -328,4 +326,3 @@ phonecontainer.innerHTML += `<div class="d-flex flex-column">
     <p>To number:</p>
     <a class="link-info text-decoration-none" href="#">Tel. 555-5555-5555</a>
 </div>`;
-

@@ -1,4 +1,4 @@
-# JS Library
+# JS Restaurant Page
 
 In this project, we built a simple restaurant project and made use of the following:
 

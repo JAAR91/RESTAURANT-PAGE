@@ -1,6 +1,9 @@
 import {
-  Home, Menu, Contact, homeContent, menuContent, contactContent,
+  Home, Menu, Contact
 } from './page-elements.js';
+import {homeContent} from './home.js';
+import {menuContent} from './menu.js';
+import {contactContent} from './contact.js';
 import './style.css';
 
 function homeClick() {

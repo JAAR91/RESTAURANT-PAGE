@@ -1,7 +1,7 @@
 import banner from './lib/banner.jpg';
-import {Container} from './page-elements.js';
+import { Container } from './page-elements.js';
 
-export const homeContent = document.createElement('div');
+const homeContent = document.createElement('div');
 homeContent.classList.add('w-100', 'bg-white', 'p-0');
 Container.appendChild(homeContent);
 
@@ -53,4 +53,4 @@ homeContent.innerHTML += `<div class="w-100 row p-0 m-0 rounded-bottom bg-dark">
     </div>
 </div>`;
 
-
+export default homeContent;

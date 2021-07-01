@@ -22,12 +22,18 @@ To get a local copy of the repository please run the following commands on your 
 
 ```bash
 $ cd <folder>
-$ git clone git@github.com:JAAR91/js-library.git
-$ cd Library
+$ git clone git@github.com:JAAR91/RESTAURANT-PAGE.git
+$ cd RESTAURANT-PAGE
 ```
+
 Now set up webpack using the command:
 ```
 $ npm install
+```
+
+To run the project just type the command:
+```
+$ npm start
 ```
 
 ## Author

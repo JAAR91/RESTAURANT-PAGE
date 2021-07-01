@@ -3,9 +3,9 @@ import facebook from './lib/facebookbig.png';
 import twitterbig from './lib/twitterbig.png';
 import instagrambig from './lib/instagrambig.png';
 import phone from './lib/telephone.png';
-import {Container} from './page-elements.js';
+import { Container } from './page-elements.js';
 
-export const contactContent = document.createElement('div');
+const contactContent = document.createElement('div');
 contactContent.classList.add('w-100', 'bg-white', 'd-none', 'row', 'm-0');
 Container.appendChild(contactContent);
 
@@ -79,3 +79,5 @@ phonecontainer.innerHTML += `<div class="d-flex flex-column">
     <p>To number:</p>
     <a class="link-info text-decoration-none" href="#">Tel. 555-5555-5555</a>
 </div>`;
+
+export default contactContent;

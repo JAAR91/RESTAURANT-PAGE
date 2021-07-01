@@ -1,6 +1,6 @@
-import {Container} from './page-elements.js';
+import { Container } from './page-elements.js';
 
-export const menuContent = document.createElement('div');
+const menuContent = document.createElement('div');
 menuContent.classList.add('w-100', 'd-none', 'p-5', 'bg-dark');
 Container.appendChild(menuContent);
 
@@ -120,3 +120,5 @@ menuContent.innerHTML += `<div class="bg-dark w-100 row">
     </div>
     
 </div>`;
+
+export default menuContent;

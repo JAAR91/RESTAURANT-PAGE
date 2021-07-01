@@ -1,6 +1,6 @@
-import faceimg from './facebook.png';
-import twitterimg from './twitter.png';
-import instragramimg from './instagram.png';
+import faceimg from './lib/facebook.png';
+import twitterimg from './lib/twitter.png';
+import instragramimg from './lib/instagram.png';
 
 export const Content = document.getElementById('content');
 Content.classList.add('p-0', 'mt-container');

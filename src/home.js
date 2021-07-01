@@ -1,4 +1,4 @@
-import banner from './banner.jpg';
+import banner from './lib/banner.jpg';
 import {Container} from './page-elements.js';
 
 export const homeContent = document.createElement('div');

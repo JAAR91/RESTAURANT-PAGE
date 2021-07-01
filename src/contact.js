@@ -1,8 +1,8 @@
-import gmailicon from './gmail.png';
-import facebook from './facebookbig.png';
-import twitterbig from './twitterbig.png';
-import instagrambig from './instagrambig.png';
-import phone from './telephone.png';
+import gmailicon from './lib/gmail.png';
+import facebook from './lib/facebookbig.png';
+import twitterbig from './lib/twitterbig.png';
+import instagrambig from './lib/instagrambig.png';
+import phone from './lib/telephone.png';
 import {Container} from './page-elements.js';
 
 export const contactContent = document.createElement('div');

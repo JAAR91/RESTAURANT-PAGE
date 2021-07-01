@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Restaurant';
+  src: url('./Restaurant.otf');
+}
+
+body {
+  background-image: url('./lib/background.png');
+  background-size: 250px;
+  background-attachment: fixed;
+}
+
+.mt-container {
+  margin-top: 42px;
+}
+
+.bg-navbar {
+  background-color: rgb(196, 135, 23);
+}
+
+.banner {
+  height: 100%;
+}
+
+.bg-title {
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.d-inherit {
+  display: inherit;
+}
+
+.tf-restaurant {
+  font-family: 'Restaurant', Arial, Helvetica, sans-serif;
+}
+
+.bg-menu {
+  background-color: rgb(196, 135, 23);
+}
+
+.fs-8 {
+  font-size: 35px;
+}
+
+.border-menu {
+  border: 1px solid rgb(196, 135, 23);
+}
+
+.text-menu {
+  color: rgb(196, 135, 23);
+}
+
+.text-vertical {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+.contacttitleimage {
+  background-image: url('./lib/Contact_Banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
